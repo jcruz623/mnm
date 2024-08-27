@@ -34,6 +34,7 @@ def out_tree(node, genome_length):
     '''Traverse the tree and print out tuples (position, mutation, type, distance)'''
     if node is not None and len(node.mutations) > 2:
         print("Mutations:", node.mutations)
+        print('hello')
         
         mutation_list = []
         
