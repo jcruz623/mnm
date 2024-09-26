@@ -76,9 +76,10 @@ def out_tree(node, genome_length):
             branch_new_mutations.append(branch)
             start_index += count
         
+        # new mutations
         print("New Mutations for Branches:")
         for idx, branch in enumerate(branch_new_mutations):
-            print(f"Branch {idx + 1} New Mutations:", branch)
+            print(f"New Mutations:", branch)
         
         # Calculate new distances
         new_mutation_tuples = []
